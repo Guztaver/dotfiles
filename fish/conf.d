@@ -1,0 +1,1 @@
+/home/gustavo/.config/fish/conf.d

@@ -1,0 +1,1 @@
+/home/gustavo/.config/nvim/README.md
