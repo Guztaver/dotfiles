@@ -1,1 +1,12 @@
-/home/gustavo/.config/sway/config
+
+include /etc/sway/config-vars.d/*
+
+set $confhome $HOME/.config/sway
+
+include $confhome/bindings.swconf
+include $confhome/startup.swconf
+include $confhome/extras.swconf
+include $confhome/bar.swconf
+include $confhome/input.swconf
+
+include /etc/sway/config.d/*

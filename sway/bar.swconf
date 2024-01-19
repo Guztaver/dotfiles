@@ -1,1 +1,17 @@
-/home/gustavo/.config/sway/bar.swconf
+bar {
+    position top
+
+
+    # When the status_command prints a new line to stdout, swaybar updates.
+    # The default just shows the current date and time.
+    separator_symbol |
+    status_command while date +'%d/%m/%Y %H:%M:%S %p'; do sleep 1; done
+    status_command swayblocks
+
+    colors {
+        statusline #ffffff
+        background #323232
+        inactive_workspace #32323200 #32323200 #5c5c5c
+    }
+}
+
