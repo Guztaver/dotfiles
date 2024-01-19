@@ -6,4 +6,4 @@ Starship dotfiles
 Using it 
 ---
 
-Install `Fish` and move the `fish` dotfiles, then finally, move the `starship.toml` to `~/.config`
+Install `Fish` and move the `fish` dotfiles, then finally, move the `starship.toml` to `$HOME/.config`
