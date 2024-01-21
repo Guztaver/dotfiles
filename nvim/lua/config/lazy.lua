@@ -46,3 +46,5 @@ require("lazy").setup({
     },
   },
 })
+
+vim.g.loaded_netrwPlugin = 1

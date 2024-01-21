@@ -1,7 +1,7 @@
-exec XDG_CURRENT_DESKTOP=sway flameshot
 exec nm-applet
 exec mako
 exec 1password
+exec blueman-applet
 
 exec swayidle -w \
         timeout 600 'swaylock -f -c 000000' \

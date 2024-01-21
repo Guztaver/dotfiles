@@ -1,2 +1,7 @@
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg "/home/gustavo/Mídia/Fotos/Papel de Parede/karsten-winegeart-8FmO2KAeQ2g-unsplash.jpg" fill
 
+default_border none
+default_floating_border none
+font pango:monospace 0
+titlebar_padding 1
+titlebar_border_thickness 0

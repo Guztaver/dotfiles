@@ -1,10 +1,9 @@
-Guztaver dotfiles
+Fish dotfile
 ---
 
-Here is the dotfiles from the programs that I use.
+Some customization to the `fish` shell.
 
-Installation
+
+Using it
 ---
-
-By the moment, it's just go to the program that you want and follow the instructions.
-In the future, I have plans to add a installation process to automatically do the installation.
+First, install the [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation), and then, place the files in the `$HOME/.config/fish`
