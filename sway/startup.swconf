@@ -4,9 +4,10 @@ exec 1password
 exec blueman-applet
 
 exec swayidle -w \
-        timeout 600 'swaylock -f -c 000000' \
-        timeout 1200 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-        before-sleep 'swaylock -f -c 000000'
-
+       timeout 600 'swaylock -f -c 361f26' \
+       timeout 1200 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+       before-sleep 'swaylock -f -c 361f26'
 
 exec swaymsg seat seat0 xcursor_theme macOS-Monterey
+
+exec watch -n 60 $HOME/.bun/bin/bun run $HOME/.bin/batteryNotification.js

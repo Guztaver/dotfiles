@@ -1,1 +1,4 @@
 default-timeout=15000
+
+[urgency=high]
+background-color=#ff0000
