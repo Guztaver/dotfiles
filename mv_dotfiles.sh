@@ -6,7 +6,11 @@ diretorios=$(ls -d */)
 # Caminho do diretório de destino
 diretorio_destino=~/.config/
 
+# Move os scripts para a pasta .bin no seu diretório, para não dar erro na hora de exucutar o sway
+mv ./scripts/ $HOME/.bin
+
 # Loop sobre cada diretório listado
+
 for dir in $diretorios; do
 	# Construir o caminho completo do diretório de origem
 	caminho_origem="$dir"
